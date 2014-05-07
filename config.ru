@@ -1,7 +1,8 @@
 require 'bundler/setup'
-require 'rack'
 require 'rack/contrib/try_static'
 require 'rack/contrib/not_found'
+
+Bundler.require(:default)
 
 PUBLIC_PATH = 'public'
 
